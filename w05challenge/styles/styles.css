@@ -1,0 +1,18 @@
+#desk {
+    width: 300px;
+    padding: 50px;
+    border-radius: 50%;
+}
+#graphic{
+    width: 300px;
+    padding: 50px;
+    border-radius: 50%;
+}
+#person{
+    width: 300px;
+    padding: 50px;
+    border-radius: 50%;
+}
+#images {
+    background-color: grey;   
+}
