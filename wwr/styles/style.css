@@ -27,19 +27,8 @@ Fonts are separated by a & */
   --nav-hover-background-color: #C7B494;
 }
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
 body {
-  max-width: 960px;
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  text-align: center;
-  background-color: #c7b494;
-}
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 300px;
+  background-color: #E8EFF6;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -48,55 +37,6 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   text-align: center;
   margin: 0;
-}
-hr {
-  height: 3px;
-  margin: 35px 0;
-  background: var(--accent1-color);
-}
-header {
-  padding: 1em;
-  text-align: center;
-  color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
-  background-color: #c7b494;
-}
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
-}
-p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color);
-  padding: 1em;
-}
-.colors {
-  width: 100%;
-  min-width: 350px;
-  margin: 30px auto;
-  text-align: center;
-}
-.colors th {
-  background-color: #999;
-}
-.colors td{
-  width: 25%;
-  height: 3em;
-}
-.primary {
-  background-color: var(--primary-color);
-}
-.secondary {
-  background-color: var(--secondary-color);
-}
-.accent1 {
-  background-color: var(--accent1-color);
-}
-.accent2{
-  background-color: var(--accent2-color);
-}
-p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
 }
 nav {
   background-color: var(--nav-background-color);
@@ -135,43 +75,6 @@ nav a:hover {
     ". . . top . ."
     ". left left right right ."
     "page2 page2 . . page3 page3";
-}
-.sitemap > div {
-  text-align: center;
-}
-.sm-home {
-  grid-area: home;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page2 {
-  grid-area: page2;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page3 {
-  grid-area: page3;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.top {
-  grid-area: top;
-  border-left: 1px solid;
-}
-.left {
-  grid-area: left;
-  border-top: 1px solid;
-  border-left: 1px solid;
-}
-.right {
-  grid-area: right;
-  border-top: 1px solid;
-  border-right: 1px solid;
-}
-.home-title {
-  color: #284D77;
-  font-size: 2em;
-  margin-top: 10px;
 }
 footer {
   background-color: #c7b494;
@@ -249,7 +152,7 @@ footer .social img {
   margin: 200px 0;
 }
 .card-img {
-  border: 10px;
+  border: 10px solid#C7B494
 }
 main section img {
   box-sizing: border-box;
