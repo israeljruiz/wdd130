@@ -187,7 +187,19 @@ footer .social img {
   transition: transform .5s;
   box-sizing: border-box;
   width: 100%;
-  border: 10px solid#d1789e  
+  border: 10px solid#d1789e
+}
+.num-img:hover {
+  opacity: 06;
+  transform: scale(1.1);
+}
+.num-img {
+  height: 50%;
+  box-shadow: 5px 5px 10px #facfef;
+  transition: transform .5s;
+  box-sizing: border-box;
+  width: 100%;
+  border: 10px solid#d1789e
 }
 .desserts {
   box-shadow: 5px 5px 10px #facfef;
